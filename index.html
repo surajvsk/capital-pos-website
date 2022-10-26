@@ -7,6 +7,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 
 <body>
@@ -37,7 +38,10 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#outlet-type">Outlet Type</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Outlet Type
@@ -50,7 +54,7 @@
                                 </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
                         </li>
@@ -100,7 +104,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h2 class="card-title"><span class="text-red">Online</span> Integrations</h2>
+                                <h1 class="card-title"><span class="text-red">Online</span> Integrations</h1>
                                 <p class="card-text">Capital POS allows you to manage all of your 3rd party integrations
                                     and services. Online orders, loyalty platforms, B2B delivery, payment gateways,
                                     cloud telephony & more.</p>
@@ -123,12 +127,13 @@
                 </div>
             </div>
         </div>
-        <div class="Outlet-Types my-3 py-3">
+        <div class="Outlet-Types my-4 py-4" id="outlet-type">
             <div class="container">
-                <h5 class="text-center">Outlet Types</h5>
+                <h3 class="text-center">Outlet Types</h3>
                 <p class="text-center">Capital Restaurant Management POS is built for all types of restaurant sizes and
                     formats from single
-                    outlets to 100+ outlet chains. Select your format to see how Capital can help you run better.</p>
+                    outlets to 100+ outlet chains.<br> Select your format to see how Capital can help you run better.
+                </p>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="outlet-card">
@@ -138,14 +143,14 @@
                     </div>
                     <div class="col-md-3">
                         <div class="outlet-card">
-                             <img src="images/outlet-img/dine-in.jpg" class="img-fluid">
-                           <h5>Dine-in</h5>
+                            <img src="images/outlet-img/dine-in.jpg" class="img-fluid">
+                            <h5>Dine-in</h5>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="outlet-card">
                             <img src="images/outlet-img/coffes.jpg" class="img-fluid">
-                           <h5>Cafes</h5>
+                            <h5>Cafes</h5>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -158,13 +163,13 @@
                     <div class="col-md-3">
                         <div class="outlet-card">
                             <img src="images/outlet-img/Food-Truck.jpg" class="img-fluid">
-                           <h5>Food Truck</h5>
+                            <h5>Food Truck</h5>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="outlet-card">
                             <img src="images/outlet-img/Bakeries.jpg" class="img-fluid">
-                           <h5>Bakeries</h5>
+                            <h5>Bakeries</h5>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -182,7 +187,155 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="why-capital">
+            <div class="container">
+                <h1 class="text-center">Why <span class="text-red">Capital?</span></h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card diffrent-color">
+                            <div class="card-body">
+                                <h1>A round the clock support.</h1>
+                                <h1 class="text-red">That's reliability.</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>Easy 3-click billing system.</h1>
+                                <h1 class="text-red">That's easy to use.</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>The best secret keepers.</h1>
+                                <h1 class="text-red">That's privacy.</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card diffrent-color">
+                            <div class="card-body">
+                                <h1>Pocket-friendly affordable plans.</h1>
+                                <h1 class="text-red">That's affordability.</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="qoute-section">
+            <div class="container">
+                <h1>We don't want to push our ideas on to customers, we simply want to make what they want.</h1>
+                <span>-Laura Ashley</span>
+            </div>
+        </div>
+
+        <div class="demo-call-sestion">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="display-1 fw-bold">Take a <br>
+                            <span class="text-red">Free Demo</span></h1>
+                        <p>How about a tour at Capital? Just fill in the details and we shall personally get in touch
+                            with you.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+
+                                <input type="email" class="form-control custom-input" placeholder="Enter Your Name"
+                                    aria-describedby="emailHelp">
+
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control custom-input"
+                                    placeholder="Enter Your Phone Number">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="password" class="form-control custom-input" placeholder="Restaurant Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control custom-input" placeholder="City Name">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="password" class="form-control custom-input" placeholder="Email Name">
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+      <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="#">C</a></li>
+              <li><a href="#">UI Design</a></li>
+              <li><a href="#">PHP</a></li>
+              <li><a href="#">Java</a></li>
+              <li><a href="#">Android</a></li>
+              <li><a href="#">Templates</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Contribute</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+         <a href="#">Capital CRM</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
     </script>
 </body>
